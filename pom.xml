@@ -15,14 +15,13 @@
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>
-		<!-- <java.version>11</java.version> -->
+		<java.version>11</java.version>
 		<!-- springfox-swagger -->
-		<springfox.swagger.version>2.6.1</springfox.swagger.version>
-
+<!-- 		<springfox.swagger.version>2.6.1</springfox.swagger.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>Finchley.SR2</spring-cloud.version>
+		<spring-cloud.version>Finchley.SR2</spring-cloud.version> -->
 	
 	</properties>
 	
@@ -38,7 +37,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ssm</artifactId>
 		</dependency>
@@ -58,11 +57,11 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>${springfox.swagger.version}</version>
-		</dependency>
+		</dependency> -->
 		
 	</dependencies>
 
-	<dependencyManagement>
+	<!-- <dependencyManagement>
 
 		<dependencies>
 			<dependency>
@@ -74,7 +73,7 @@
 			</dependency>
 		</dependencies>
 
-	</dependencyManagement>
+	</dependencyManagement> -->
 
 	<build>
 		<plugins>
